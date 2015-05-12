@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+}
+h1 {
+    font-size: 36px;
+  color: orange;
+  text-align: center;
+}
+.break {
+  margin-bottom: 10px
+}
+#formbox {
+  background-color: gray;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}

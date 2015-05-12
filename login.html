@@ -1,0 +1,65 @@
+<!doctype=html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="public/stylesheets/style.css"
+  </head>
+    <body>
+    <h1>This is my very important form... </h1>
+
+    <section id="formbox">
+      <form method="POST" action="/login">
+          <div class="break">
+            <label for="email-field">EMAIL</label>
+                          <div class="break"></div>
+
+             <input type="email" name="email" placeholder="email@email.com" id="email-field">
+          </div>
+          <div class="break">
+            <label for="firstname-field">FIRST NAME</label>
+                          <div class="break"></div>
+
+            <input type="text" name="firstname" id="firstname-field">
+                          <div class="break"></div>
+            <label for="lastname-field">LAST NAME</label>
+                          <div class="break"></div>
+
+            <input type="text" name="firstname" id="lastname-field">
+          </div>
+          <div class="break">
+            <label for="password-field">PASSWORD</label>
+              <div class="break"></div>
+            <input type="password" name="password" id="password-field">
+          </div>
+          <div class="break">
+            <label for="comments-field">TELL US WHAT YOU THINK...</label>
+              <div class="break"></div>
+            <textarea name="comments" ID="comments-field" rows="5" columns="50"></textarea>
+          </div>
+          <div class="break">
+            <label for="country-field">TELL US WHERE YOU LIVE...</label>
+            <div class="break"></div>
+            <select name="country" id="country-field">
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="ghana">Ghana</option>
+              <option value="france">France</option>
+              <option value="sweden">Sweden</option>
+              <option value="mexico">Mexico</option>
+            </select>
+
+            <div class="break"></div>
+            <label for"radio-field">How old are you?</label>
+            <input type="radio" name="age" value="old">Old<br>
+            <input type="radio" name="age" value="very old">Very Old
+
+
+          </div>
+          <div>
+          <input type="submit" name="submit" id="submit_field">
+          </div>
+      </form>
+      </section>
+    </body>
+</html>
+
