@@ -19,3 +19,11 @@ h1 {
   border-radius: 10px;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
+input[type=text]:hover {
+  vertical-align: right
+        background-color: gray;
+        border-color: orange;
+}
+{
+  box-sizing:border-box
+}
